@@ -489,6 +489,10 @@ details p {
   .site-footer {
     flex-direction: column;
     align-items: flex-start;
+    .screenshot-grid {
+  grid-template-columns: 1fr; /* FULL WIDTH on mobile */
+  gap: 20px;
+}
   }
 
   .nav {
