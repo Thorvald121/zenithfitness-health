@@ -197,11 +197,15 @@ h3 {
 .trust-row span {
   padding: 10px 14px;
   border-radius: 999px;
-  color: var(--muted);
-  background: rgba(255,255,255,0.045);
-  border: 1px solid var(--line);
-  font-weight: 800;
-  font-size: 0.9rem;
+  color: #8f96ad;
+  background: rgba(255,255,255,0.035);
+  border: 1px solid rgba(255,255,255,0.08);
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+
+  cursor: default;
+  pointer-events: none;
 }
 
 .phone-showcase {
