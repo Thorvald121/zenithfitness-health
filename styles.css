@@ -309,8 +309,32 @@ h3 {
 
 .screenshot-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 18px;
+  grid-template-columns: repeat(2, 1fr); /* BIGGER */
+  gap: 28px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.screenshot-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 40px;
+  border: 1px solid var(--line);
+  background: rgba(29, 32, 48, 0.7);
+  box-shadow: 0 40px 120px rgba(0, 0, 0, 0.45);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* 👇 Makes them feel alive */
+.screenshot-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 60px 160px rgba(0, 0, 0, 0.6);
+}
+
+.screenshot-card img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .screenshot-card {
