@@ -1,73 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Zenith | Fitness & Nutrition Tracking</title>
-<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Zenith Health & Fitness | Workout, Nutrition, and Goal Tracking</title>
+  <meta name="description" content="Zenith Health & Fitness helps you track workouts, nutrition, macros, body stats, goals, and daily consistency in one focused fitness app." />
+
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Zenith Health & Fitness home">
+      <span class="brand-mark">
+        <span class="z-peak">Z</span>
+      </span>
+      <span class="brand-text">Zenith</span>
+    </a>
 
-<header class="header">
-  <div class="logo">
-    <div class="logo-mark">Z</div>
-    <span>Zenith</span>
-  </div>
-  <nav>
-    <a href="#features">Features</a>
-    <a href="support.html">Support</a>
-    <a href="privacy.html">Privacy</a>
-  </nav>
-</header>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#features">Features</a>
+      <a href="#screens">App Preview</a>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+  </header>
 
-<section class="hero">
-  <h1>Track Smarter. Train Harder. Stay Consistent.</h1>
-  <p>
-    Zenith is your all-in-one system for workouts, nutrition, and progress tracking — built for people who take results seriously.
-  </p>
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Fitness • Nutrition • Consistency</p>
+        <h1>Track your progress without losing focus.</h1>
+        <p class="lead">
+          Zenith brings workouts, meal logging, macros, goals, body stats, and streaks into one clean dark-mode fitness app built for daily use.
+        </p>
 
-  <div class="hero-buttons">
-    <a class="btn primary" href="support.html">Get Support</a>
-  </div>
-</section>
+        <div class="hero-actions">
+          <a class="button primary" href="support.html">Get Support</a>
+          <a class="button secondary" href="#features">Explore Features</a>
+        </div>
 
-<section class="feature">
-  <h2>Dashboard Built for Clarity</h2>
-  <p>
-    See your workouts, calories, and progress instantly — no clutter, no confusion.
-  </p>
-</section>
+        <div class="trust-row">
+          <span>Workout tracking</span>
+          <span>Macro goals</span>
+          <span>Progress stats</span>
+        </div>
+      </div>
 
-<section class="feature">
-  <h2>Nutrition Tracking Without Friction</h2>
-  <p>
-    Log meals, track macros, and stay within your calorie goals with a clean, fast interface.
-  </p>
-</section>
+      <div class="phone-showcase" aria-label="Zenith app dashboard preview">
+        <div class="phone">
+          <div class="phone-status"></div>
 
-<section class="feature">
-  <h2>Workout System That Actually Helps</h2>
-  <p>
-    Follow structured routines or log your own workouts with full control.
-  </p>
-</section>
+          <div class="app-header">
+            <div class="mini-brand">
+              <span class="mini-icon">⌁</span>
+              <strong>Zenith</strong>
+            </div>
+            <div class="header-icons">
+              <span>☼</span>
+              <span>⚙</span>
+            </div>
+          </div>
 
-<section class="feature">
-  <h2>Consistency Over Everything</h2>
-  <p>
-    Streak tracking and progress metrics help you stay disciplined and accountable.
-  </p>
-</section>
+          <div class="screen-section">
+            <h2>Dashboard</h2>
+            <p>Your fitness overview at a glance</p>
 
-<section class="cta">
-  <h2>Start Taking Your Progress Seriously</h2>
-  <a class="btn primary" href="support.html">Contact Support</a>
-</section>
+            <div class="streak purple">🔥 1-day workout streak</div>
+            <div class="streak orange">🍴 2-day logging streak</div>
 
-<footer>
-  <p>© 2026 Zenith Health & Fitness</p>
-</footer>
+            <div class="metric-grid">
+              <article class="metric-card">
+                <span>WORKOUTS THIS WEEK</span>
+                <strong>2</strong>
+                <small>375 cal burned</small>
+              </article>
+              <article class="metric-card">
+                <span>CALORIES TODAY</span>
+                <strong>360</strong>
+                <small>kcal consumed</small>
+              </article>
+              <article class="metric-card">
+                <span>CURRENT WEIGHT</span>
+                <strong>168</strong>
+                <small>lbs</small>
+              </article>
+              <article class="metric-card">
+                <span>TOTAL WORKOUTS</span>
+                <strong>2</strong>
+                <small>all time</small>
+              </article>
+            </div>
 
+            <div class="budget-card">
+              <div class="budget-top">
+                <strong>🔥 Calorie Budget</strong>
+                <span>1490 remaining</span>
+              </div>
+              <div class="progress-track">
+                <span style="width: 20%"></span>
+              </div>
+              <div class="budget-values">
+                <span><strong>360</strong> eaten</span>
+                <span><strong>0</strong> burned</span>
+                <span><strong>1850</strong> goal</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="bottom-nav">
+            <span class="active">▦<small>Dashboard</small></span>
+            <span>🏋<small>Workouts</small></span>
+            <span>🍴<small>Nutrition</small></span>
+            <span>⌁<small>Body Stats</small></span>
+            <span>◎<small>Goals</small></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Built around your daily routine</p>
+        <h2>Everything important, without the clutter.</h2>
+        <p>
+          Zenith is designed around the core pieces most people actually need: workouts, nutrition, body stats, goals, and consistency.
+        </p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card purple-card">
+          <div class="feature-icon">🏋</div>
+          <h3>Workout Tracking</h3>
+          <p>Use pre-built routines or log your own workouts so every session has a clear record.</p>
+        </article>
+
+        <article class="feature-card orange-card">
+          <div class="feature-icon">🔥</div>
+          <h3>Nutrition Logging</h3>
+          <p>Track calories, protein, carbs, fat, serving size, meal type, and notes in a fast meal log.</p>
+        </article>
+
+        <article class="feature-card green-card">
+          <div class="feature-icon">⚖</div>
+          <h3>Body Stats</h3>
+          <p>Keep an eye on weight and progress signals so your effort connects to measurable results.</p>
+        </article>
+
+        <article class="feature-card violet-card">
+          <div class="feature-icon">◎</div>
+          <h3>Goal Targets</h3>
+          <p>Set daily calorie and macro goals, then use your dashboard to stay aligned through the day.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="screens" class="section split-section">
+      <div>
+        <p class="eyebrow">App preview</p>
+        <h2>A dark interface built for focus.</h2>
+        <p>
+          The app uses a clean dark visual system with high-contrast cards, focused inputs, clear status indicators, and color-coded nutrition and workout signals.
+        </p>
+      </div>
+
+      <div class="screen-cards">
+        <article>
+          <span class="pill purple-pill">Goals</span>
+          <h3>Daily targets</h3>
+          <p>Calories, protein, carbohydrates, and fat goals are easy to set and review.</p>
+        </article>
+        <article>
+          <span class="pill orange-pill">Nutrition</span>
+          <h3>Meal logging</h3>
+          <p>Log date, meal type, food name, serving size, macros, calories, and notes.</p>
+        </article>
+        <article>
+          <span class="pill purple-pill">Workouts</span>
+          <h3>Routine driven</h3>
+          <p>Follow routines, log custom workouts, and review workout history.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section app-store-section">
+      <div class="app-store-card">
+        <p class="eyebrow">Coming through the Apple App Store</p>
+        <h2>Zenith Health & Fitness</h2>
+        <p>
+          A fitness and nutrition tracking app for people who want structure, consistency, and a clean place to monitor progress.
+        </p>
+        <div class="hero-actions centered">
+          <a class="button primary" href="support.html">App Support</a>
+          <a class="button secondary" href="privacy.html">Privacy Policy</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Zenith Health & Fitness. All rights reserved.</p>
+    <div>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy Policy</a>
+    </div>
+  </footer>
 </body>
 </html>

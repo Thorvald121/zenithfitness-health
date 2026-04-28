@@ -1,37 +1,19 @@
-# Zenith Health & Fitness Website
+# Zenith Health & Fitness Premium Matched Website
 
-Static website for the Zenith Health & Fitness iPhone app.
+This version is designed to match the actual Zenith app screenshots more closely.
 
-## Pages
+## Included
 
-- `index.html` — marketing homepage
-- `support.html` — App Store support URL page
-- `privacy.html` — privacy policy page
-- `styles.css` — shared styling
+- `index.html` — premium landing page
+- `support.html` — App Store support page
+- `privacy.html` — privacy policy
+- `styles.css` — app-matched dark UI styling
+- `netlify.toml` — Netlify routing
 
 ## Netlify Settings
 
-When importing this GitHub repo into Netlify:
+When importing this repo into Netlify:
 
+- Framework preset: None / static
 - Build command: leave blank
-- Publish directory: leave blank, or use `/`
-- Framework preset: None / static site
-
-## Recommended App Store URLs
-
-After connecting your domain:
-
-- Support URL: `https://zenithhealthandfit.com/support.html`
-- Marketing URL: `https://zenithhealthandfit.com/`
-- Privacy Policy URL: `https://zenithhealthandfit.com/privacy.html`
-
-## Important Setup Note
-
-Update the support email if needed in:
-
-- `support.html`
-- `privacy.html`
-
-Current placeholder email:
-
-`support@zenithhealthandfit.com`
+- Publish directory: `.`
