@@ -1,19 +1,3 @@
-# Zenith Health & Fitness Premium Matched Website
+# Zenith Health & Fitness Website Assets
 
-This version is designed to match the actual Zenith app screenshots more closely.
-
-## Included
-
-- `index.html` — premium landing page
-- `support.html` — App Store support page
-- `privacy.html` — privacy policy
-- `styles.css` — app-matched dark UI styling
-- `netlify.toml` — Netlify routing
-
-## Netlify Settings
-
-When importing this repo into Netlify:
-
-- Framework preset: None / static
-- Build command: leave blank
-- Publish directory: `.`
+Upload all files and the `assets` folder to your GitHub repository.
